@@ -1,0 +1,91 @@
+
+
+<table class="styled-table">
+  <thead>
+      <tr>
+          <th>Task Name</th>
+          <th>Status</th>
+          <th>Action</th>
+
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let q of tasks">
+          <td>{{q.title}}</td>
+          <td><input type="checkbox"></td>
+          <td><button class="btn" mat-flat-button color="primary"class="ml20" (click)="deleteTask(q.id)" >
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="delete"></mat-icon>
+  
+            <span class="material-symbols-outlined">
+            </span></button></td>
+      </tr>
+      
+  </tbody>
+</table>
+<!-- {{tasks| json}} -->
+
+
+
+<!-- <div class="container">
+<table >
+  <tr>
+    <th class="mr">Task</th>
+    <th>Status</th>
+    <th>Action</th>
+  </tr>
+  <tr *ngFor="let q of tasks">
+    <td>{{q.title}}</td>
+    <td><input type="checkbox"></td>
+    <td><button mat-flat-button color="accent"class="ml20"  >Update</button>
+      <button mat-flat-button color="warn"class="ml20" (click)="deleteTask(q.id)" >Delete</button>
+    </td>
+  </tr>
+</table>
+</div> -->
+
+
+
+
+
+
+<!-- <table class="container">
+  <thead>
+    <tr class="ml20">
+      <th class="mr" >
+    Task Name 
+      </th>
+      <th>
+        Status
+      </th>
+      <th>
+        Action
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="mr" *ngFor="let q of tasks">
+      <td>{{q.title}}</td>
+      <td class="ml20"><input type="checkbox"></td>
+      <td> -->
+        <!-- <button mat-flat-button color="accent"class="ml"  >Update</button> -->
+        <!-- <button mat-flat-button color="warn"class="ml20" (click)="deleteTask(q.id)" >
+          <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="delete"></mat-icon>
+
+          <span class="material-symbols-outlined">
+          delete
+          </span></button></td>
+    </tr>
+  </tbody>
+</table> -->
+
+<!-- <mat-card class="mt20" *ngFor="let q of tasks">
+
+ <mat-card-actions>
+  <button  mat-flat-button color="accent"  > {{q.title}}
+  </button>
+  <button mat-flat-button color="accent"class="ml20"  >Update</button>
+  <button mat-flat-button color="warn"class="ml20"  >Delete</button>
+
+
+ </mat-card-actions>
+</mat-card> -->

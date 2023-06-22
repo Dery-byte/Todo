@@ -1,0 +1,12 @@
+.w100{
+    width: 100%;
+}
+
+.containerlarg{
+/* background-color: #fffbf0, #efeff0; */
+background-image:linear-gradient(to right, #fffbf0, #efeff0);
+/* margin-top: 50px; */
+
+margin: 10px 10px;
+
+}

@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <form (ngSubmit)="formSubmit()">
+                <mat-form-field class="w100">
+                    <mat-label >Enter Task Here</mat-label>
+                    <textarea [(ngModel)] = "task.title" name="title" matInput  placeholder="" rows="6"></textarea>
+                  </mat-form-field>
+<div class="button-add">
+    <button   mat-raised-button color="primary" type="submit ">Add Task</button>
+</div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- {{task | json}} -->
+
+
+
+
+
+

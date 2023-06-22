@@ -1,0 +1,45 @@
+.example-spacer{
+    flex: 1 1 auto;
+}
+
+.mrl{
+    margin-right: 50px;
+}
+
+.ml{
+    margin-right: 180px;
+}
+.ml{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+}
+.navbar{
+    /* background-image: linear-gradient(right-left, #009879, #d100b0); */
+    background-color: #009879;
+}
+
+
+button>.btnv{
+    color: white;
+}
+#eye{
+    margin-top: 10px;
+}
+
+.btns{
+    float: right;
+font-size: 10px;
+    margin-left: 300px;
+}
+
+.btnV{
+margin: 2px 10px;
+
+}
